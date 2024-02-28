@@ -15,4 +15,4 @@
     - [session](./docs/commands/session/index.md)
     - [system](./docs/commands/system/index.md)
 - Tutorials
-  - [Fertilities](.tutorials/MapFertilities) 
+  - [Fertilities](./tutorials/MapFertilities) 
