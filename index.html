@@ -17,6 +17,7 @@
     <script>
       window.$docsify = {
         name: 'Anno 1800 Modding Guides',
+        basePath: '/en/',
         alias: {
           '/.*/_navbar.md': '/_navbar.md',
           '/en/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-en/master/$1',
@@ -42,14 +43,6 @@
         el: "#app",
         //default language
         fallbackLanguages: ['en', 'de'],
-        namespaces: [
-          {
-            id: "lang",
-            values: ["en", "de"],
-            optional: false,
-            selector: "#lang-selector",
-          },
-        ],
         //SideBar
         loadSidebar: true,
         //NavBar
