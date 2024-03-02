@@ -10,7 +10,7 @@
     <!-- ToC -->
     <link rel="stylesheet" href="https://unpkg.com/docsify-plugin-toc/dist/light.css">
     <!-- Theme: Simple Dark -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable/dist/css/theme-simple-dark.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css" />
   </head>
   <body>
     <nav>
@@ -21,22 +21,26 @@
     <script>
       window.$docsify = {
         name: 'Anno 1800 Modding Guides',
-        logo: '1709332927006gp6w80ns.jpg',
+        logo: 'image.png',
         alias: {
           '/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-en/master/$1',
           '/en/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-en/master/$1',
           '/de-de/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-de/master/$1',
         },
         search: {
-          paths: 'auto', // or []
+          paths: 'auto',
           placeholder: 'Type to search',
           // Localization
           placeholder: {
             '/': 'Type to search',
+            '/en/': 'Type to search',
+            '/de/': 'Tippen zum suchen',
           },
           // Localization
           noData: {
             '/': 'No Results',
+            '/en/': 'No Results',
+            '/de/': 'Keine Resultate',
           },
           // Headline depth, 1 - 6
           depth: 2,
