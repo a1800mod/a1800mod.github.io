@@ -25,9 +25,9 @@
         name: 'Anno 1800 Modding Guides',
         logo: 'image.png',
         alias: {
-          '/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-en/master/$1',
           '/en/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-en/master/$1',
           '/de/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-de/master/$1',
+          '/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-en/master/$1',
         },
         nameLink: {
           '/de/': '#/de/',
@@ -76,7 +76,7 @@
         showPoweredBy: false,            // should show powered by docsify at right
         copyrightYear: '2024',              // show copyright year, default current year.
         showCopyright: false,            // set to false to hide default copyright
-        copyright: '<a href="https://github.com/a1800mod/a1800mod.github.io/graphs/contributors"><img src="https://contrib.rocks/image?repo=a1800mod/a1800mod.github.io" /></a>',           // set this to html string to use custom copyright section
+        copyright: undefined,//'<a href="https://github.com/a1800mod/a1800mod.github.io/graphs/contributors"><img src="https://contrib.rocks/image?repo=a1800mod/a1800mod.github.io" /></a>',           // set this to html string to use custom copyright section
         copyrightOwnerName: '',         // copyright owner name
         copyrightOwnerLink: undefined,  // copyright owner link if any
         copyrightExtra: undefined,      // any exta text to show below copyright owner section
